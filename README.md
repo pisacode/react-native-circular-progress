@@ -113,6 +113,7 @@ duration            | number                 | 500                     | Duratio
 easing              | function               | Easing.out(Easing.ease) | Animation easing function
 onAnimationComplete | function               |                         | Function that's invoked when the animation completes (both on mount and if called with `.animate()`)
 tintColorSecondary  | string                 | the same as tintColor   | To change fill color from tintColor to tintColorSecondary as animation progresses
+tintColorThird  | string                 | the same as tintColorSecondary   | To change fill color from tintColorSecondary to tintColorThird as animation progresses
 
 `AnimatedCircularProgress` also exposes the following functions:
 
